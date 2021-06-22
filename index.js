@@ -232,8 +232,7 @@ box2.addEventListener('click', (e) => {
     else {
         box2.innerHTML = `<div class="active disable">${tikToe}</div>`;
         temp = tikToe;
-        console.log("BOx2")
-        console.log(box2.innerText)
+        
         if (box2.innerText === "X") {
             box2.style.color = "yellow"
         }
